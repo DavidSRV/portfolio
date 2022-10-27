@@ -9,22 +9,25 @@
     justify-content: space-around;
     background-color: $background-nav;
 
-    & .links__name{
-        & p{
+    & .links__name {
+        & p {
             font-weight: 600;
+            user-select: none;
         }
     }
 
-    & .links__general{
+    & .links__general {
         padding: 5px;
         display: flex;
         gap: 20px;
-        
 
-        & a{
+        & a {
             text-decoration: none;
             color: $letter;
 
+            &:hover{
+                opacity: 0.50;
+            }
         }
     }
 }
