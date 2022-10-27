@@ -4,11 +4,12 @@ import Contact from "./pages/contact/Contact";
 import MainPage from "./pages/main/MainPage";
 import Projects from "./pages/projects/Projects";
 import Skills from "./pages/skills/Skills";
+import "./style/style.scss";
 
 function App() {
   return (
     <div className="App">
-      <MainPage/>
+      <MainPage />
       <Routes>
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />

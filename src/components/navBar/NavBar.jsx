@@ -1,13 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./_NavBarStyle.scss";
 
 function NavBar() {
-  return <nav className="links__containers">
-    <Link to="/About">Sobre mí</Link>
-    <Link to="/Skills">Conocimientos</Link>
-    <Link to="/Projects">Proyectos</Link>
-    <Link to="/Contact">Contáctame</Link>
-  </nav>;
+  return (
+    <nav className="links__containers"> 
+      <div className="links__name">
+        <p>DAVID R.V.</p>
+      </div>
+      <div className="links__general">
+        <Link to="/About">About</Link>
+        <Link to="/Skills">Skills</Link>
+        <Link to="/Projects">Projects</Link>
+        <Link to="/Contact">Contact</Link>
+      </div>
+    </nav>
+  );
 }
 
 export default NavBar;

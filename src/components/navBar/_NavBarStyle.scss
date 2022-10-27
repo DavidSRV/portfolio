@@ -1,0 +1,30 @@
+@use '../../style/colors' as *;
+
+.links__containers {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 30px;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: $background-nav;
+
+    & .links__name{
+        & p{
+            font-weight: 600;
+        }
+    }
+
+    & .links__general{
+        padding: 5px;
+        display: flex;
+        gap: 20px;
+        
+
+        & a{
+            text-decoration: none;
+            color: $letter;
+
+        }
+    }
+}
