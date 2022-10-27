@@ -1,11 +1,9 @@
 import React from 'react'
+import NavBar from '../../components/navBar/NavBar'
 
 function MainPage() {
   return (
-    <section>
-        <h1>Hi, I'm David</h1>
-        <p>Dev Fronted</p>
-    </section>
+    <NavBar/>
   )
 }
 
