@@ -35,14 +35,35 @@
     }
 
     & .layout__iconDown {
-        // color: white;
+        animation: arrowDown 3s infinite;
+        animation-timing-function: ease;
         position: absolute;
         right: 50%;
         bottom: 20%;
         font-size: 40px;
         cursor: pointer;
-        // backdrop-filter: blur(10px);
 
+        &:hover {
+            scale: (1.1);
+        }
+    }
+}
+
+@keyframes arrowDown {
+    0% {
+        bottom: 20%;
     }
 
+    50% {
+        bottom: 18%;
+        scale: (1.1);
+    }
+
+    75% {
+        bottom: 16%;
+    }
+
+    100% {
+        bottom: 20%;
+    }
 }

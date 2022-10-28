@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../../components/navBar/NavBar";
 import "./_MainStyle.scss";
 import { BsChevronDoubleDown } from "react-icons/bs";
+import About from "../about/About";
 
 
 function MainPage() {
@@ -15,7 +16,7 @@ function MainPage() {
         </div>
         <BsChevronDoubleDown  className="layout__iconDown"/>
       </div>
-      <section className="section1"></section>
+      <section className="section1"><About/></section>
       <section className="section2"></section>
       <section className="section3"></section>
       <section className="section4"></section>
