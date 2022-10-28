@@ -1,6 +1,8 @@
 import React from "react";
 import NavBar from "../../components/navBar/NavBar";
 import "./_MainStyle.scss";
+import { BsChevronDoubleDown } from "react-icons/bs";
+
 
 function MainPage() {
   return (
@@ -8,9 +10,10 @@ function MainPage() {
       <div className="layout">
         <NavBar />
         <div className="layout__content">
-          <h1 className="layout__title">Hi, I'm David</h1>
-          <p className="layout__description">Web Developer</p>
+          <h1 className="layout__title">Hola, Soy David</h1>
+          <p className="layout__description">Desarrollador Web - Fronted</p>
         </div>
+        <BsChevronDoubleDown  className="layout__iconDown"/>
       </div>
       <section className="section1"></section>
       <section className="section2"></section>

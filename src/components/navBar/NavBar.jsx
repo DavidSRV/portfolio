@@ -9,10 +9,10 @@ function NavBar() {
         <p>DAVID R.V.</p>
       </div>
       <div className="links__general">
-        <Link to="/About">ABOUT</Link>
-        <Link to="/Skills">SKILLS</Link>
-        <Link to="/Projects">PROJECTS</Link>
-        <Link to="/Contact">CONTACT</Link>
+        <Link to="/About">SOBRE MÍ</Link>
+        <Link to="/Skills">TECNOLOGÍAS</Link>
+        <Link to="/Projects">PROYECTOS</Link>
+        <Link to="/Contact">CONTÁCTAME</Link>
       </div>
     </nav>
   );

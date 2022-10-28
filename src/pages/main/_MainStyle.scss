@@ -7,7 +7,8 @@
     background-image: url('../../assets/img/background.jpg');
     background-repeat: no-repeat;
     background-position: bottom;
-        background-size: cover;
+    background-size: cover;
+    user-select: none;
 
     & .layout__content {
         text-align: center;
@@ -19,18 +20,29 @@
         backdrop-filter: blur(10px);
         padding: 10px;
 
-        & .layout__title{
+        & .layout__title {
             color: $letter;
-            font-size: 5rem;
+            font-size: 4.5rem;
             font-weight: 300;
             letter-spacing: 3px;
         }
 
-        & .layout__description{
+        & .layout__description {
             color: $letter;
             font-size: 1.5rem;
-                font-weight: 300;
+            font-weight: 300;
         }
+    }
+
+    & .layout__iconDown {
+        // color: white;
+        position: absolute;
+        right: 50%;
+        bottom: 20%;
+        font-size: 40px;
+        cursor: pointer;
+        // backdrop-filter: blur(10px);
+
     }
 
 }
