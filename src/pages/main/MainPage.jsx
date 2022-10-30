@@ -4,7 +4,7 @@ import "./_MainStyle.scss";
 import { BsChevronDoubleDown } from "react-icons/bs";
 import About from "../about/About";
 import Skills from "../skills/Skills";
-
+import Projects from "../projects/Projects";
 
 function MainPage() {
   return (
@@ -15,12 +15,18 @@ function MainPage() {
           <h1 className="layout__title">Hola, Soy David</h1>
           <p className="layout__description">Desarrollador Web - Fronted</p>
         </div>
-        <BsChevronDoubleDown  className="layout__iconDown"/>
+        <BsChevronDoubleDown className="layout__iconDown" />
       </div>
-      <section className="section1"><About/></section>
-      <section className="section2"> <Skills/></section>
-      <section className="section3"></section>
-      <section className="section4"></section>
+      <section>
+        <About />
+      </section>
+      <section>
+        <Skills />
+      </section>
+      <section>
+        <Projects />
+      </section>
+      <section></section>
     </>
   );
 }

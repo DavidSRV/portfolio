@@ -1,0 +1,99 @@
+@use '../../style/colors' as *;
+
+@mixin skills($grid-column) {
+
+    grid-column: $grid-column;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+
+    & .skills__title {
+        text-align: center;
+        opacity: 0;
+
+    }
+
+    & img {
+        width: 100px;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: $background-skills;
+    padding-top: 40px;
+
+}
+
+.skills__General {
+    width: 100%;
+    margin: 0 auto;
+    background-color: $background-skills;
+
+    & .skills__container {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 2;
+        gap: 30px;
+
+        & .HTML {
+            @include skills(1)
+        }
+
+        & .CSS {
+
+            @include skills(2)
+        }
+
+        & .Javascript {
+
+            @include skills(3)
+        }
+
+        & .SASS {
+
+            @include skills(4)
+        }
+
+        & .ReactJs {
+
+            @include skills(5)
+        }
+
+        & .Redux {
+
+            @include skills(1)
+        }
+
+        & .NodeJs {
+
+            @include skills(2)
+        }
+
+        & .Express {
+
+            @include skills(3)
+        }
+
+        & .MySQL {
+
+            @include skills(4)
+        }
+
+        & .GIT {
+
+            @include skills(5)
+        }
+
+
+    }
+
+}

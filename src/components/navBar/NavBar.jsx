@@ -4,10 +4,7 @@ import "./_NavBarStyle.scss";
 
 function NavBar() {
   return (
-    <nav className="links__containers"> 
-      <div className="links__name">
-        <p>DAVID R.V.</p>
-      </div>
+    <nav className="links__containers">
       <div className="links__general">
         <Link to="/About">SOBRE MÍ</Link>
         <Link to="/Skills">TECNOLOGÍAS</Link>
