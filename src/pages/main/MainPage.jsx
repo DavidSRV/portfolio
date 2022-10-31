@@ -5,7 +5,8 @@ import { BsChevronDoubleDown } from "react-icons/bs";
 import About from "../about/About";
 import Skills from "../skills/Skills";
 import Projects from "../projects/Projects";
-import Cv from "../../components/cv/Cv";
+import Cv from "../cv/Cv";
+
 
 function MainPage() {
   return (
@@ -20,7 +21,7 @@ function MainPage() {
       </div>
       <section>
         <About />
-        <Cv/>
+        <Cv />
       </section>
       <section>
         <Skills />

@@ -27,10 +27,8 @@
     & img {
         width: 80px;
         transition: all 1s;
-        filter: grayscale(100%);
 
         &:hover {
-            filter: none;
             transform: scale(1.1);
         }
     }
@@ -48,7 +46,7 @@
 .description__skills {
     text-align: center;
     line-height: 2rem;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 
@@ -60,6 +58,8 @@
     .skills__General {
         width: 60%;
         margin: 0 auto;
+        position: relative;
+        left: 80px;
 
         & .skills__description {
             text-align: center;

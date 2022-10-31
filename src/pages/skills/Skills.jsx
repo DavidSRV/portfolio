@@ -1,6 +1,7 @@
 import React from "react";
 import { skills } from "../../utils/technologies";
 import "./SkillsStyle.scss";
+import Work from "./work/Work";
 
 function Skills() {
   return (
@@ -24,6 +25,7 @@ function Skills() {
             ))}
           </article>
         </aside>
+        <Work />
       </section>
     </>
   );
