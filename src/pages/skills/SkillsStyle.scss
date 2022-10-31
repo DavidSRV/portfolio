@@ -6,93 +6,135 @@
     display: grid;
     place-content: center;
     padding: 10px;
+    transition: all 1s;
 
-    & .skills__title {
+    &:hover .skills__title{
+        opacity: 1;
+        position: relative;
+        bottom: 5px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    .skills__title {
         text-align: center;
         opacity: 0;
+        transition: all 1s;
+        position: relative;
+        bottom: 5px;        
     }
 
     & img {
-        width: 100px;
+        width: 80px;
+        transition: all 1s;
+        filter: grayscale(100%);
 
-        &:hover{
-            transform: scale(1.2);
+        &:hover {
+            filter: none;
+            transform: scale(1.1);
         }
     }
 }
 
-
-h3 {
+.title__skills {
     margin-top: 20px;
     text-align: center;
     text-transform: uppercase;
-    // background-color: $background-skills;
-    padding-top: 40px;
-
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 100px 0 20px;
 }
 
-.skills__General {
-    width: 100%;
-    margin: 0 auto;
-    background-color: $background-skills;
+.description__skills {
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 40px;
+}
 
-    & .skills__container {
-        padding: 10px;
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: 2;
-        gap: 30px;
 
-        & .HTML {
-            @include skills(1)
+.skills__Exp {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .skills__General {
+        width: 60%;
+        margin: 0 auto;
+
+        & .skills__description {
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 700;
+
+            text-transform: uppercase;
         }
 
-        & .CSS {
+        & .skills__container {
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
 
-            @include skills(2)
+            & .HTML {
+                @include skills(1)
+            }
+
+            & .CSS {
+
+                @include skills(2)
+            }
+
+            & .JavaScript {
+
+                @include skills(3)
+            }
+
+            & .SASS {
+
+                @include skills(1)
+            }
+
+            & .Boostrap {
+
+                @include skills(2)
+            }
+
+            & .MaterialUI {
+                @include skills(3)
+            }
+
+
+            & .ReactJS {
+
+                @include skills(1)
+            }
+
+            & .Redux {
+
+                @include skills(2)
+            }
+
+            & .NodeJS {
+
+                @include skills(3)
+            }
+
+            & .Express {
+
+                @include skills(1)
+            }
+
+            & .MySQL {
+
+                @include skills(2)
+            }
+
+            & .GIT {
+
+                @include skills(3)
+            }
+
         }
-
-        & .Javascript {
-
-            @include skills(3)
-        }
-
-        & .SASS {
-
-            @include skills(4)
-        }
-
-        & .ReactJs {
-
-            @include skills(5)
-        }
-
-        & .Redux {
-
-            @include skills(1)
-        }
-
-        & .NodeJs {
-
-            @include skills(2)
-        }
-
-        & .Express {
-
-            @include skills(3)
-        }
-
-        & .MySQL {
-
-            @include skills(4)
-        }
-
-        & .GIT {
-
-            @include skills(5)
-        }
-
-
     }
+
 
 }
