@@ -1,0 +1,68 @@
+.portfolio {
+
+    height: 100vh;
+
+    & .portfolio__title {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 100;
+        margin-top: 80px;
+    }
+
+    & .portfolio__subtitle {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 100;
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+
+    & .portfolio__projects {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
+        justify-items: center;
+        gap: 20px;
+        margin: 80px;
+
+        & img {
+            max-width: 100%;
+            display: block;
+            -webkit-box-shadow: 2px 0px 14px -4px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 2px 0px 14px -4px rgba(0, 0, 0, 0.75);
+            box-shadow: 2px 0px 14px -4px rgba(0, 0, 0, 0.75);
+        }
+
+        & .TodoManagment {
+            grid-column: 1;
+        }
+
+        & .E-commerce {
+            grid-column: 2;
+
+        }
+
+        & .CreditCard {
+            grid-column: 3;
+
+        }
+
+        & .TimeTrackerDash {
+            grid-column: 1;
+
+        }
+
+        & .TestimonialsGrid {
+            grid-column: 2;
+
+        }
+
+        & .AdviceAPI {
+            grid-column: 3;
+
+        }
+
+    }
+
+
+
+}
