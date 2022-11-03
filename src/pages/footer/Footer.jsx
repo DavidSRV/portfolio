@@ -1,7 +1,7 @@
 import React from "react";
 import "./_FooterStyle.scss";
 import { BsWhatsapp, BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
-import { IoRocketOutline } from "react-icons/io5";
+import { RiRocket2Line } from "react-icons/ri";
 import { MdCopyright } from "react-icons/md";
 
 function Footer() {
@@ -29,13 +29,15 @@ function Footer() {
           <BsInstagram className="footer__icon --inst" />
         </a>
       </div>
+
       <div className="footer__up">
-        <IoRocketOutline />
+        <RiRocket2Line className="footer__iconUp" />
         <p className="footer__descriptionUp">Sube al inicio de la página</p>
-        <div>
-          <MdCopyright />
-          <p>David Ruiz 2022</p>
-        </div>
+      </div>
+
+      <div className="footer__copy">
+        <MdCopyright className="footer__copyIcon"/>
+        <p>David Ruiz 2022</p>
       </div>
     </footer>
   );
