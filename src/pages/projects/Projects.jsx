@@ -9,7 +9,7 @@ function Projects() {
       <p className="portfolio__subtitle">(Más proyectos muy pronto...)</p>
       <article className="portfolio__projects">
         {projects.map((item) => (
-          <div className="portfolio__container">
+          <div className="portfolio__container" key={item.name}>
             <p className="portfolio__nameProject">{item.name}</p>
             <a href={item.urlLive} target="__blank">
               <img
@@ -34,7 +34,7 @@ function Projects() {
                 rel="noreferrer"
                 href={item.urlRepo}
               >
-                Codigo del Proyecto
+                Código del Proyecto
               </a>
             </div>
           </div>
