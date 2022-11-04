@@ -5,6 +5,11 @@ import { RiRocket2Line } from "react-icons/ri";
 import { MdCopyright } from "react-icons/md";
 
 function Footer() {
+
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <footer className="footer">
       <div className="footer__containerIcons">
@@ -31,12 +36,12 @@ function Footer() {
       </div>
 
       <div className="footer__up">
-        <RiRocket2Line className="footer__iconUp" />
+        <RiRocket2Line onClick={scrollTop} className="footer__iconUp" />
         <p className="footer__descriptionUp">Sube al inicio de la página</p>
       </div>
 
       <div className="footer__copy">
-        <MdCopyright className="footer__copyIcon"/>
+        <MdCopyright className="footer__copyIcon" />
         <p>David Ruiz 2022</p>
       </div>
     </footer>
