@@ -3,7 +3,7 @@ import "./_CvStyle.scss";
 
 function Cv() {
   return (
-    <article>
+    <article id="skills">
       <div className="cv">
         <div className="wrap">
           <p className="cv__title">Mira mi Curriculum vitae</p>

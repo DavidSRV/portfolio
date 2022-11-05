@@ -53,24 +53,24 @@
         color: $font-footer;
         font-size: 0.6rem;
 
-        &:hover .footer__descriptionUp{
+        &:hover .footer__descriptionUp {
             opacity: 1;
             transition: all 1s;
         }
 
-        & .footer__descriptionUp{
+        & .footer__descriptionUp {
             opacity: 0;
             transition: all 1s;
         }
 
-        & .footer__iconUp{
+        & .footer__iconUp {
             font-size: 40px;
             color: $rocket;
             margin: 25px 10px 10px;
             cursor: pointer;
             transition: all 1s;
 
-            &:hover{
+            &:hover {
                 transform: scale(1.1);
                 transition: all 1s;
             }
@@ -78,7 +78,7 @@
     }
 
 
-    & .footer__copy{
+    & .footer__copy {
         display: flex;
         align-items: center;
         justify-content: center;

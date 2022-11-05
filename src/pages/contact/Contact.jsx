@@ -4,7 +4,7 @@ import { FaRegPaperPlane } from 'react-icons/fa';
 
 function Contact() {
   return (
-    <article className="contact">
+    <article id="contact" className="contact">
       <FaRegPaperPlane  className="contact__icon"/>
       <p className="contact__title">Contáctame</p>
       <p className="contact__description">Si tienes una idea para un proyecto, no dudes en mandarme un email !!</p>

@@ -4,7 +4,7 @@ import "./_ProjectsStyle.scss";
 
 function Projects() {
   return (
-    <section className="portfolio">
+    <section id="projects" className="portfolio">
       <p className="portfolio__title">PORTAFOLIO DE PROYECTOS</p>
       <p className="portfolio__subtitle">(Más proyectos muy pronto...)</p>
       <article className="portfolio__projects">

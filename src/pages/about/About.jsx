@@ -2,10 +2,9 @@ import React from "react";
 import "./AboutStyle.scss";
 import img from "../../assets/img/imgDavid.png";
 
-function About({about}) {
-
+function About() {
   return (
-    <section ref={about} className="containerGeneral">
+    <section id="about" className="containerGeneral">
       <article className="description__container">
         <h2 className="description__title">UN POCO SOBRE MÍ</h2>
         <p className="description__paragraph1">
