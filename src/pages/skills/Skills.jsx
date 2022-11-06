@@ -14,7 +14,7 @@ function Skills() {
       <section className="skills__Exp">
         <aside className="skills__General">
           <p className="skills__description">
-            Tecnologias y herramientas que he usado{" "}
+            Tecnologias y herramientas que he usado
           </p>
           <article className="skills__container">
             {skills.map((element) => (

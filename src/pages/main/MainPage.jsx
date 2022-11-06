@@ -10,17 +10,18 @@ import Contact from "../contact/Contact";
 import Footer from "../footer/Footer";
 
 function MainPage() {
-
   return (
     <>
       <div className="layout">
-        <NavBar
-        />
+        <NavBar />
+        <div className="layout__background"></div>
         <div className="layout__content">
-          <h1 className="layout__title">Hola, Soy David</h1>
-          <p className="layout__description">Desarrollador Web - Fronted</p>
+          <h1 className="layout__title">David Ruiz</h1>
+          <div className="circle1"></div>
+          <div className="circle2"></div>
         </div>
-        <BsChevronDoubleDown className="layout__iconDown" />
+        <p>David Sebastián Ruiz Vargas</p>
+        {/* <BsChevronDoubleDown className="layout__iconDown" /> */}
       </div>
       <About />
       <Cv />
