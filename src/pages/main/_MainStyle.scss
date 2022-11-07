@@ -18,17 +18,15 @@
         user-select: none;
         z-index: -1000;
 
-        //estilo 2
-
-//         filter: grayscale(28%) sepia(21%) contrast(108%);
-// -webkit-filter: grayscale(28%) sepia(21%) contrast(108%);
-// -moz-filter: grayscale(28%) sepia(21%) contrast(108%);
+        filter: grayscale(28%) sepia(21%) contrast(108%);
+        -webkit-filter: grayscale(28%) sepia(21%) contrast(108%);
+        -moz-filter: grayscale(28%) sepia(21%) contrast(108%);
 
         //ESTILO 1
 
-//         filter: brightness(79%);
-// -webkit-filter: brightness(79%);
-// -moz-filter: brightness(79%);
+        //         filter: brightness(79%);
+        // -webkit-filter: brightness(79%);
+        // -moz-filter: brightness(79%);
 
     }
 
@@ -54,6 +52,7 @@
             text-transform: uppercase;
             font-family: 'Oswald', sans-serif;
             letter-spacing: 10px;
+
         }
 
         & .circle1 {
@@ -69,20 +68,20 @@
             width: 450px;
             height: 450px;
             float: left;
-            
+
 
             //estilo 1
 
             // filter: brightness(90%);
             // -webkit-filter: brightness(90%);
             // -moz-filter: brightness(90%);
-            
+
 
             //Estilo 2
 
-//             filter: grayscale(28%) sepia(21%) contrast(108%);
-// -webkit-filter: grayscale(28%) sepia(21%) contrast(108%);
-// -moz-filter: grayscale(28%) sepia(21%) contrast(108%);
+            filter: grayscale(28%) sepia(21%) contrast(108%);
+            -webkit-filter: grayscale(28%) sepia(21%) contrast(108%);
+            -moz-filter: grayscale(28%) sepia(21%) contrast(108%);
 
         }
 
@@ -113,32 +112,46 @@
         animation-timing-function: ease;
         position: absolute;
         right: 50%;
-        bottom: 20%;
+        bottom: 10%;
         font-size: 40px;
         cursor: pointer;
-        color: #8d99aec2;
+        color: #ffffff;
 
         &:hover {
             scale: (1.1);
         }
     }
+
+    & .layout__descriptionBorder {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        color: white;
+        letter-spacing: 10px;
+        position: absolute;
+        top: 55%;
+        left: -16%;
+        transform: rotate(270deg);
+    }
+
+
+
 }
 
 @keyframes arrowDown {
     0% {
-        bottom: 20%;
+        bottom: 15%;
     }
 
     50% {
-        bottom: 18%;
+        bottom: 10%;
         scale: (1.1);
     }
 
     75% {
-        bottom: 16%;
+        bottom: 8%;
     }
 
     100% {
-        bottom: 20%;
+        bottom: 15%;
     }
 }

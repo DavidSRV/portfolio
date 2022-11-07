@@ -13,19 +13,24 @@ function MainPage() {
   return (
     <>
       <div className="layout">
+
         <NavBar />
+
         <div className="layout__background"></div>
+
         <div className="layout__content">
           <h1 className="layout__title">David Ruiz</h1>
           <div className="prueba">
           <div className="circle1"></div>
           <div className="circle2"></div>
           </div>
-          
         </div>
-        <p>David Sebastián Ruiz Vargas</p>
-        {/* <BsChevronDoubleDown className="layout__iconDown" /> */}
+
+        <p className="layout__descriptionBorder">David Ruiz Vargas - Front Dev </p>
+
+       <a href="#about"><BsChevronDoubleDown className="layout__iconDown" /></a> 
       </div>
+
       <About />
       <Cv />
       <Skills />

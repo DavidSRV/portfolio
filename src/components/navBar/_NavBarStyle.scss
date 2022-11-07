@@ -8,6 +8,9 @@
     padding: 20px;
     justify-content: space-around;
     position: fixed;
+    background-color: rgba(116, 101, 101, 0.684);
+    z-index: 1000;
+    border-radius: 3px;
 
     & .links__name {
         & p {
