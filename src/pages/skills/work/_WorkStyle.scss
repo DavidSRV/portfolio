@@ -1,0 +1,36 @@
+.exp__container {
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+
+    & .exp__title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    & .exp__business{
+        text-transform: uppercase;
+        position: relative;
+        top: 30px;
+
+    }
+
+    & a {
+
+        display: grid;
+        justify-items: center;
+
+        & .exp__img {
+            max-width: 300px;
+        }
+    }
+
+    & .exp__description {
+        margin-bottom: 50px;
+        font-size: 1.2rem;
+    }
+}

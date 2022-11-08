@@ -1,0 +1,92 @@
+@use '../../style/colors' as *;
+
+.footer {
+    height: 18vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $background-footer;
+
+    & .footer__containerIcons {
+        display: flex;
+
+        & .footer__icon {
+            display: block;
+            width: 50px;
+            height: 50px;
+            margin: 4px;
+            background-color: $background-icnos;
+            color: white;
+            padding: 15px;
+            transition: all 1s;
+            border-radius: 2px;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: all 1s;
+            }
+
+            &.--git:hover {
+                background-color: $linkedin-git;
+            }
+
+            &.--lin:hover {
+                background-color: $linkedin-git;
+            }
+
+            &.--wha:hover {
+                background-color: $what;
+            }
+
+            &.--inst:hover {
+                background-color: $insta;
+            }
+        }
+    }
+
+    & .footer__up {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: $font-footer;
+        font-size: 0.6rem;
+
+        &:hover .footer__descriptionUp {
+            opacity: 1;
+            transition: all 1s;
+        }
+
+        & .footer__descriptionUp {
+            opacity: 0;
+            transition: all 1s;
+        }
+
+        & .footer__iconUp {
+            font-size: 40px;
+            color: $rocket;
+            margin: 25px 10px 10px;
+            cursor: pointer;
+            transition: all 1s;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: all 1s;
+            }
+        }
+    }
+
+
+    & .footer__copy {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        color: $font-footer;
+        margin-top: 10px;
+    }
+
+
+
+}
