@@ -1,16 +1,17 @@
 @use '../../style/colors' as *;
 
 .links__containers {
-    display: flex;
+    display: none;
     justify-content: end;
     align-items: center;
     height: 30px;
     padding: 20px;
     justify-content: space-around;
     position: fixed;
-    background-color: rgba(116, 101, 101, 0.684);
+    background-color: #e5e5e5;
     z-index: 1000;
     border-radius: 3px;
+    transition: all 1s;
 
     & .links__name {
         & p {
