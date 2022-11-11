@@ -9,7 +9,7 @@ function Cv() {
           <p className="cv__title">Mira mi Curriculum vitae</p>
           <a
             className="cv__link"
-            href="https://drive.google.com/file/d/10Igh7tnHNGpFukO5dikaNS4zSayF3mG3/view?usp=sharing"
+            href="https://drive.google.com/file/d/1hyvQFtGf3X7locdj1VsdxgYMD_zNoohP/view?usp=sharing"
             download="David Ruiz Vargas - CV"
             rel="noreferrer"
             target="_blank"
