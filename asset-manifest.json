@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0e8218af.css",
+    "main.js": "/portfolio/static/js/main.d6d11e2e.js",
+    "static/media/Fondo-CV.jpg": "/portfolio/static/media/Fondo-CV.2d93986bf0f9a3cdb4c4.jpg",
+    "static/media/Prueba1CambioMain.jpg": "/portfolio/static/media/Prueba1CambioMain.d54875b482349c00216c.jpg",
+    "static/media/imgDavid.png": "/portfolio/static/media/imgDavid.ea43c21adc7e305c5421.png",
+    "static/media/Testimonials.jpg": "/portfolio/static/media/Testimonials.3f6ff93b3745f252bf3d.jpg",
+    "static/media/E-Commerce.jpg": "/portfolio/static/media/E-Commerce.24b7e90f6d3c2faae864.jpg",
+    "static/media/TimeTrackerDash.jpg": "/portfolio/static/media/TimeTrackerDash.af0efaf52647d9cff29b.jpg",
+    "static/media/TODO.jpg": "/portfolio/static/media/TODO.dd873d4caea2918b6871.jpg",
+    "static/media/CrediCard.jpg": "/portfolio/static/media/CrediCard.ffcfa3d969397b3eafb8.jpg",
+    "static/media/Isotipo-original-fondo-bco.jpg": "/portfolio/static/media/Isotipo-original-fondo-bco.b7a96e739e167b16d73b.jpg",
+    "static/media/AdviceAPI.jpg": "/portfolio/static/media/AdviceAPI.d2b98662c1f0cee262b8.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.0e8218af.css.map": "/portfolio/static/css/main.0e8218af.css.map",
+    "main.d6d11e2e.js.map": "/portfolio/static/js/main.d6d11e2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e8218af.css",
+    "static/js/main.d6d11e2e.js"
+  ]
+}
